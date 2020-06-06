@@ -1,0 +1,9 @@
+tmp/submission/20200606/12/33/hackerrank-a44bd3f5aa0a93308ce10b039adbf382/code/Solution.js:55
+    ws.write(result.join(' ') + '\n');
+                    ^
+TypeError: result.join is not a function
+    at main (/tmp/submission/20200606/12/33/hackerrank-a44bd3f5aa0a93308ce10b039adbf382/code/Solution.js:55:21)
+    at Socket.<anonymous> (/tmp/submission/20200606/12/33/hackerrank-a44bd3f5aa0a93308ce10b039adbf382/code/Solution.js:20:5)
+    at Socket.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
